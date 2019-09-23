@@ -35,7 +35,7 @@ public class Test728 {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> ans = new ArrayList<>();
         for (int n = left; n <= right; ++n) {
-            if (selfDividing1(n)) ans.add(n);
+            if (selfDividing2(n)) ans.add(n);
         }
         return ans;
     }
